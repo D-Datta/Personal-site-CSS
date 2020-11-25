@@ -32,20 +32,23 @@ span {
 }
 
 .background {
-  position: absolute;
-  display: flex;
-  width: 100%;
-  top: 1000px;
-  padding-top: 600px;
+  position: relative;
+  display: flex-box;
+  width: 80%;
+
+  top: 700px;
+
   object-fit: contain;
-  height: 40%;
 }
 
 .mountain {
   position: absolute;
   display: flex;
+
   width: 40%;
+
   top: 500px;
+
   padding-left: 500px;
   padding-top: 400px;
   object-fit: contain;
