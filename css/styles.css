@@ -10,8 +10,8 @@ h1 {
 
 .top-container {
   position: relative;
-  padding-top: 100px;
-
+  padding-top: 200px;
+  height: 100px;
   background-color: #e4f9f5;
 }
 
@@ -20,29 +20,35 @@ span {
 }
 
 .middle-container {
+  padding-top: 300px;
   background-color: #e4f9f5;
-
+  height: 300px;
   font-size: xx-large;
 }
 .bottom-container {
   background-color: #e4f9f5;
+  padding-top: 500px;
+  height: 800px;
 }
 
 .background {
   position: absolute;
-  padding-top: 60%;
-  border-radius: 98%;
+  display: flex;
   width: 100%;
-  left: 0;
+  top: 1000px;
+  padding-top: 600px;
   object-fit: contain;
   height: 40%;
 }
 
 .mountain {
   position: absolute;
-  width: 30%;
-  top: 650px;
-  right: 35%;
+  display: flex;
+  width: 40%;
+  top: 500px;
+  padding-left: 500px;
+  padding-top: 400px;
+  object-fit: contain;
 }
 .top-cloud {
   position: absolute;
