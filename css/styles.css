@@ -11,7 +11,6 @@ h1 {
 .top-container {
   position: relative;
   padding-top: 100px;
-  width: 100%;
 
   background-color: #e4f9f5;
 }
@@ -22,16 +21,11 @@ span {
 
 .middle-container {
   background-color: #e4f9f5;
-  padding: 250px;
+
   font-size: xx-large;
-  width: 100%;
-  height: 500px;
-  padding-left: 0%;
 }
 .bottom-container {
   background-color: #e4f9f5;
-  width: 100%;
-  height: 1000px;
 }
 
 .background {
