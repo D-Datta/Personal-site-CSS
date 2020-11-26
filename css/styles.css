@@ -29,6 +29,7 @@ p {
   line-height: 2;
   font-family: "Inconsolata", monospace;
   font-weight: bold;
+  font-size: larger;
 }
 
 hr {
@@ -86,7 +87,8 @@ a:hover {
 
 .copyright {
   color: #eaf6f6;
-  font-size: 0.75rem;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
   padding: 20px 0;
 }
 
